@@ -12,6 +12,7 @@
 	HatchbackWheel
 	HatchbackWheel
 	HatchbackWheel
+	HatchbackWheel
 
 <VehicleParts> OffroadHatchback_Blue
 	SparkPlug						
@@ -27,6 +28,7 @@
 	HatchbackWheel
 	HatchbackWheel
 	HatchbackWheel
+	HatchbackWheel
 
 <VehicleParts> OffroadHatchback_White
 	SparkPlug
@@ -38,6 +40,7 @@
 	HatchbackDoors_Driver_White
 	HatchbackHood_White
 	HatchbackTrunk_White
+	HatchbackWheel
 	HatchbackWheel
 	HatchbackWheel
 	HatchbackWheel
@@ -59,6 +62,7 @@
 	Hatchback_02_Wheel
 	Hatchback_02_Wheel
 	Hatchback_02_Wheel
+	Hatchback_02_Wheel
 
 <VehicleParts> Hatchback_02_Black
 	SparkPlug
@@ -72,6 +76,7 @@
 	Hatchback_02_Door_2_2_Black
 	Hatchback_02_Hood_Black
 	Hatchback_02_Trunk_Black
+	Hatchback_02_Wheel
 	Hatchback_02_Wheel
 	Hatchback_02_Wheel
 	Hatchback_02_Wheel
@@ -93,6 +98,7 @@
 	Hatchback_02_Wheel
 	Hatchback_02_Wheel
 	Hatchback_02_Wheel
+	Hatchback_02_Wheel
 
 <VehicleParts> CivilianSedan
 	SparkPlug
@@ -106,6 +112,7 @@
 	CivSedanDoors_BackRight
 	CivSedanHood
 	CivSedanTrunk
+	CivSedanWheel
 	CivSedanWheel
 	CivSedanWheel
 	CivSedanWheel
@@ -127,6 +134,7 @@
 	CivSedanWheel
 	CivSedanWheel
 	CivSedanWheel
+	CivSedanWheel
 
 <VehicleParts> CivilianSedan_Black
 	SparkPlug
@@ -140,6 +148,7 @@
 	CivSedanDoors_BackRight_Black
 	CivSedanHood_Black
 	CivSedanTrunk_Black
+	CivSedanWheel
 	CivSedanWheel
 	CivSedanWheel
 	CivSedanWheel
@@ -161,6 +170,7 @@
 	Sedan_02_Wheel
 	Sedan_02_Wheel
 	Sedan_02_Wheel
+	Sedan_02_Wheel
 
 <VehicleParts> Sedan_02_Red
 	SparkPlug
@@ -174,6 +184,7 @@
 	Sedan_02_Door_2_2_Red
 	Sedan_02_Hood_Red
 	Sedan_02_Trunk_Red
+	Sedan_02_Wheel
 	Sedan_02_Wheel
 	Sedan_02_Wheel
 	Sedan_02_Wheel
@@ -195,6 +206,24 @@
 	Sedan_02_Wheel
 	Sedan_02_Wheel
 	Sedan_02_Wheel
+	Sedan_02_Wheel
+	
+<VehicleParts>Offroad_02
+	GlowPlug
+	CarBattery
+	HeadlightH7
+	HeadlightH7
+	Offroad_02_Door_1_1
+	Offroad_02_Door_1_2
+	Offroad_02_Door_2_1
+	Offroad_02_Door_2_2
+	Offroad_02_Trunk
+	Offroad_02_Hood
+	Offroad_02_Wheel
+	Offroad_02_Wheel
+	Offroad_02_Wheel
+	Offroad_02_Wheel
+	Offroad_02_Wheel
 
 <VehicleParts>Truck_01_Covered
     TruckBattery

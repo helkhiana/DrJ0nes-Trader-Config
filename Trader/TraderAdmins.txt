@@ -6,7 +6,7 @@
 ///////////////////////////////////////////////////////////
 
 78901234567890123	// Admin No1
-76543210987654321	// Admin No2
-78912345678901234	// Admin No3
+78901234567890123	// Admin No2
+78901234567890123	// Admin No3
 
 <FileEnd>			// This has to be on the End of this File and is very importand!
