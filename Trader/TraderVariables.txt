@@ -1,7 +1,8 @@
-<BuySellTimer> 0.3		            // Time in Seconds that the Player has to wait untill he can buy or sell a new Item (bigger Values may reduce Server-Crashes/Errors and Server-Performance).
+<BuySellTimer> 0.3		        // Time in Seconds that the Player has to wait untill he can buy or sell a new Item (bigger Values may reduce Server-Crashes/Errors and Server-Performance).
 <VehicleCleanupTimer> 15.0	        // Time in Minutes Interval of Vehicle Cleanup in Vehicle Buy-/Sellzones. After 3 Cleanups the Vehicle will get unlocked (1 Cleanup gets also called on every Serverstart). Set to 0 to disable.
-<SafezoneTimeout> 30.0	            // Time in Seconds that the Player still gets secured after he left the Safezone.
-<SafezoneRemoveAnimals> yes 	    //yes/Yes to remove the animals in safezones | no/No to not remove them
-<SafezoneRemoveInfected> yes 	    //yes/Yes to remove the infected in safezones | no/No to not remove them
+<SafezoneTimeout> 30.0	            	// Time in Seconds that the Player still gets secured after he left the Safezone.
+<SafezoneRemoveAnimals> yes 	    	// yes/Yes to remove the animals in safezones | no/No to not remove them
+<SafezoneRemoveInfected> yes 	    	// yes/Yes to remove the infected in safezones | no/No to not remove them
+<TradingDistance> 2.4			// 1.0 to 3.0 allowed. Don't put higher than 3.0 as it won't work. Trading distance from a trader to get the prompt to trade.
 
 <FileEnd>							// This has to be on the End of this File and is very importand!
