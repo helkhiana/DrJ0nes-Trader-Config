@@ -1,0 +1,15 @@
+<VehicleParts> Boat_01_Black
+	SparkPlug
+
+<VehicleParts> Boat_01_Blue
+	SparkPlug
+	
+<VehicleParts> Boat_01_Camo
+	SparkPlug
+	
+<VehicleParts> Boat_01_Orange
+	SparkPlug
+	
+	
+//<OpenFile> FileName.txt			// Links to another File;
+<FileEnd>							// This has to be on the End of the last File and is very important!

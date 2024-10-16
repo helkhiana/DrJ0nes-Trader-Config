@@ -18,6 +18,7 @@
 	<Currency> MoneyRuble100, 	100
 
 
+//Marker 0
 <Trader> Consume Trader								// Trader Name (first Trader has ID = 0, second Trader has ID = 1, and so on..)
 	<Category> Vegetables							// Category Name
 		CaninaBerry,			*,		1,		-1	// Item Classname, Quantity, Buyvalue, Sellvalue
@@ -139,7 +140,7 @@
 		MoneyRuble50,			1,		50,		-1
 		MoneyRuble100,			1,		100,	-1
 
-
+//Marker 1
 <Trader> Misc Trader
 	<Category> Tools (small)
 		Screwdriver,			*,		3,		1
@@ -328,7 +329,7 @@
 		Bear_Pink,				*,		5,		1
 		Bear_White,				*,		5,		1
 
-		
+//Marker 2
 <Trader> Weapon Trader
 	<Category> Melee	
 		BrassKnuckles_Shiny,	W,		15,		6
@@ -444,6 +445,7 @@
 		Grenade_ChemGas,		1,		1000,	600
 		
 		
+//Marker 3
 <Trader> Weapon Supplies
 	<Category> Ammunition
 		Ammo_380,				1,		1,		-1
@@ -605,6 +607,7 @@
 		Universallight,			*,		120,	60
 	
 	
+//Marker 4
 <Trader> Clothing Trader
 	<Category> Glasses
 		SportGlasses_Orange,	*,		17,		8
@@ -1290,187 +1293,5 @@
 		//LeatherSack_Brown,	*,		0,		0
 		//LeatherSack_Natural,	*,		0,		0
 	
-	
-<Trader> Vehicles Trader
-	<Category> Vehicles
-		OffroadHatchback,		V,		14000,	8000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
-		OffroadHatchback_Blue,	V,		14000,	8000
-		OffroadHatchback_White,	V,		14000,	8000
-		Hatchback_02,			V,		16000,	9600
-		Hatchback_02_Blue,		V,		16000,	9600
-		Hatchback_02_Black,		V,		16000,	9600
-		Sedan_02,				V,		18000,	10200
-		Sedan_02_Red,			V,		18000,	10200
-		Sedan_02_Grey,			V,		18000,	10200
-		CivilianSedan,			V,		20000,	11000
-		CivilianSedan_Wine,		V,		20000,	11000
-		CivilianSedan_Black,	V,		20000,	11000
-		Offroad_02,				V,		50000,	30000
-		Truck_01_Covered,		V,		50000,	30000
-        Truck_01_Covered_Blue,	V,		50000,	30000
-        Truck_01_Covered_Orange,V,		50000,	30000
-	
-	<Category> Vehicle Parts
-		HeadlightH7_Box,		*,		30,		15
-		SparkPlug,				*,		60,		40
-		GlowPlug,				*,		60,		40
-		EngineOil,				*,		70,		40
-		CarBattery,				*,		100,	50
-		TruckBattery,			*,		180,	100
-		CarRadiator,			*,		200,	100
-		TireRepairKit,			*,		220,	100
-		HatchbackHood,						*,		300,	100
-		HatchbackHood_Blue,					*,		300,	100
-		HatchbackHood_White,				*,		300,	100
-		HatchbackHood_GreenRust,			*,		300,	100
-		HatchbackHood_BlueRust,				*,		300,	100
-		HatchbackHood_WhiteRust,			*,		300,	100
-		HatchbackTrunk,						*,		380,	130
-		HatchbackTrunk_Blue,				*,		380,	130
-		HatchbackTrunk_White,				*,		380,	130
-		HatchbackTrunk_GreenRust,			*,		380,	130
-		HatchbackTrunk_BlueRust,			*,		380,	130
-		HatchbackTrunk_WhiteRust,			*,		380,	130
-		HatchbackDoors_Driver,				*,		450,	160
-		HatchbackDoors_Driver_Blue,			*,		450,	160
-		HatchbackDoors_Driver_White,		*,		450,	160
-		HatchbackDoors_Driver_GreenRust,	*,		450,	160
-		HatchbackDoors_Driver_BlueRust,		*,		450,	160
-		HatchbackDoors_Driver_WhiteRust,	*,		450,	160
-		HatchbackDoors_CoDriver,			*,		450,	160
-		HatchbackDoors_CoDriver_Blue,		*,		450,	160
-		HatchbackDoors_CoDriver_White,		*,		450,	160
-		HatchbackDoors_CoDriver_GreenRust,	*,		450,	160
-		HatchbackDoors_CoDriver_BlueRust,	*,		450,	160
-		HatchbackDoors_CoDriver_WhiteRust,	*,		450,	160
-		HatchbackWheel,						*,		500,	100
-		Hatchback_02_Hood,				*,		300,	100
-		Hatchback_02_Hood_Black,		*,		300,	100
-		Hatchback_02_Hood_Blue,			*,		300,	100
-		Hatchback_02_Hood_RedRust,		*,		300,	100
-		Hatchback_02_Hood_BlackRust,	*,		300,	100
-		Hatchback_02_Hood_BlueRust,		*,		300,	100
-		Hatchback_02_Trunk,				*,		380,	130
-		Hatchback_02_Trunk_Black,		*,		380,	130
-		Hatchback_02_Trunk_Blue,		*,		380,	130
-		Hatchback_02_Trunk_RedRust,		*,		380,	130
-		Hatchback_02_Trunk_BlackRust,	*,		380,	130
-		Hatchback_02_Trunk_BlueRust,	*,		380,	130
-		Hatchback_02_Door_1_1,			*,		450,	160
-		Hatchback_02_Door_1_1_Black,	*,		450,	160
-		Hatchback_02_Door_1_1_Blue,		*,		450,	160
-		Hatchback_02_Door_1_1_RedRust,	*,		450,	160
-		Hatchback_02_Door_1_1_BlackRust,*,		450,	160
-		Hatchback_02_Door_1_1_BlueRust,	*,		450,	160
-		Hatchback_02_Door_1_2,			*,		450,	160
-		Hatchback_02_Door_1_2_Black,	*,		450,	160
-		Hatchback_02_Door_1_2_Blue,		*,		450,	160
-		Hatchback_02_Door_1_2_RedRust,	*,		450,	160
-		Hatchback_02_Door_1_2_BlackRust,*,		450,	160
-		Hatchback_02_Door_1_2_BlueRust,	*,		450,	160
-		Hatchback_02_Door_2_1,			*,		450,	160
-		Hatchback_02_Door_2_1_Black,	*,		450,	160
-		Hatchback_02_Door_2_1_Blue,		*,		450,	160
-		Hatchback_02_Door_2_1_RedRust,	*,		450,	160
-		Hatchback_02_Door_2_1_BlackRust,*,		450,	160
-		Hatchback_02_Door_2_1_BlueRust,	*,		450,	160
-		Hatchback_02_Door_2_2,			*,		450,	160
-		Hatchback_02_Door_2_2_Black,	*,		450,	160
-		Hatchback_02_Door_2_2_Blue,		*,		450,	160
-		Hatchback_02_Door_2_2_RedRust,	*,		450,	160
-		Hatchback_02_Door_2_2_BlackRust,*,		450,	160
-		Hatchback_02_Door_2_2_BlueRust,	*,		450,	160
-		Hatchback_02_Wheel,				*,		500,	100
-		Sedan_02_Hood,					*,		300,	100
-		Sedan_02_Hood_Red,				*,		300,	100
-		Sedan_02_Hood_Grey,				*,		300,	100
-		Sedan_02_Hood_YellowRust,		*,		300,	100
-		Sedan_02_Hood_RedRust,			*,		300,	100
-		Sedan_02_Hood_GreyRust,			*,		300,	100
-		Sedan_02_Trunk,					*,		450,	150
-		Sedan_02_Trunk_Red,				*,		450,	150
-		Sedan_02_Trunk_Grey,			*,		450,	150
-		Sedan_02_Trunk_YellowRust,		*,		450,	150
-		Sedan_02_Trunk_RedRust,			*,		450,	150
-		Sedan_02_Trunk_GreyRust,		*,		450,	150
-		Sedan_02_Door_1_1,				*,		450,	160
-		Sedan_02_Door_1_1_Red,			*,		450,	160
-		Sedan_02_Door_1_1_Grey,			*,		450,	160
-		Sedan_02_Door_1_1_YellowRust,	*,		450,	160
-		Sedan_02_Door_1_1_RedRust,		*,		450,	160
-		Sedan_02_Door_1_1_GreyRust,		*,		450,	160
-		Sedan_02_Door_1_2,				*,		450,	160
-		Sedan_02_Door_1_2_Red,			*,		450,	160
-		Sedan_02_Door_1_2_Grey,			*,		450,	160
-		Sedan_02_Door_1_2_YellowRust,	*,		450,	160
-		Sedan_02_Door_1_2_RedRust,		*,		450,	160
-		Sedan_02_Door_1_2_GreyRust,		*,		450,	160
-		Sedan_02_Door_2_1,				*,		450,	160
-		Sedan_02_Door_2_1_Red,			*,		450,	160
-		Sedan_02_Door_2_1_Grey,			*,		450,	160
-		Sedan_02_Door_2_1_YellowRust,	*,		450,	160
-		Sedan_02_Door_2_1_RedRust,		*,		450,	160
-		Sedan_02_Door_2_1_GreyRust,		*,		450,	160
-		Sedan_02_Door_2_2,				*,		450,	160  
-		Sedan_02_Door_2_2_Red,			*,		450,	160  
-		Sedan_02_Door_2_2_Grey,			*,		450,	160  
-		Sedan_02_Door_2_2_YellowRust,	*,		450,	160  
-		Sedan_02_Door_2_2_RedRust,		*,		450,	160  
-		Sedan_02_Door_2_2_GreyRust,		*,		450,	160  
-		Sedan_02_Wheel,					*,		500,	100
-		CivSedanHood,						*,		400,	140
-		CivSedanHood_Wine,					*,		400,	140
-		CivSedanHood_Black,					*,		400,	140
-		CivSedanHood_WhiteRust,				*,		400,	140
-		CivSedanHood_WineRust,				*,		400,	140
-		CivSedanHood_BlackRust,				*,		400,	140
-		CivSedanTrunk,						*,		450,	150
-		CivSedanTrunk_Wine,					*,		450,	150
-		CivSedanTrunk_Black,				*,		450,	150
-		CivSedanTrunk_WhiteRust,			*,		450,	150
-		CivSedanTrunk_WineRust,				*,		450,	150
-		CivSedanTrunk_BlackRust,			*,		450,	150
-		CivSedanDoors_Driver,				*,		500,	180
-		CivSedanDoors_Driver_Wine,			*,		500,	180
-		CivSedanDoors_Driver_Black,			*,		500,	180
-		CivSedanDoors_Driver_WhiteRust,		*,		500,	180
-		CivSedanDoors_Driver_WineRust,		*,		500,	180
-		CivSedanDoors_Driver_BlackRust,		*,		500,	180
-		CivSedanDoors_CoDriver,				*,		500,	180
-		CivSedanDoors_CoDriver_Wine,		*,		500,	180
-		CivSedanDoors_CoDriver_Black,		*,		500,	180
-		CivSedanDoors_CoDriver_WhiteRust,	*,		500,	180
-		CivSedanDoors_CoDriver_WineRust,	*,		500,	180
-		CivSedanDoors_CoDriver_BlackRust,	*,		500,	180
-		CivSedanDoors_BackLeft,				*,		500,	180
-		CivSedanDoors_BackLeft_Wine,		*,		500,	180
-		CivSedanDoors_BackLeft_Black,		*,		500,	180
-		CivSedanDoors_BackLeft_WhiteRust,	*,		500,	180
-		CivSedanDoors_BackLeft_WineRust,	*,		500,	180
-		CivSedanDoors_BackLeft_BlackRust,	*,		500,	180
-		CivSedanDoors_BackRight,			*,		500,	180
-		CivSedanDoors_BackRight_Wine,		*,		500,	180
-		CivSedanDoors_BackRight_Black,		*,		500,	180
-		CivSedanDoors_BackRight_WhiteRust,	*,		500,	180
-		CivSedanDoors_BackRight_WineRust,	*,		500,	180
-		CivSedanDoors_BackRight_BlackRust,	*,		500,	180
-		CivSedanWheel,						*,		600,	120
-		Truck_01_Hood,						*,		400,	140
-		Truck_01_Hood_Blue,					*,		400,	140
-        Truck_01_Hood_Orange,				*,		400,	140
-		Truck_01_Door_1_1,					*,		500,	180
-        Truck_01_Door_1_1_Blue,				*,		500,	180
-        Truck_01_Door_1_1_Orange,			*,		500,	180
-        Truck_01_Door_2_1,					*,		500,	180
-        Truck_01_Door_2_1_Blue,				*,		500,	180
-        Truck_01_Door_2_1_Orange,			*,		500,	180
-        Truck_01_Wheel,						*,		600,	120
-        Truck_01_WheelDouble,				*,		1000,	200
-		
-	<Category> Keys
-		VehicleKeyDuplicate,	K,		2000,	-1 		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
-		VehicleKeyLost,    		KL,    	5000,   -1		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1
-		
-		
-//<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
-<FileEnd>												// This has to be on the End of this File and is very importand!
+
+<OpenFile> TraderConfig_Vehicles.txt			// Links to another File;

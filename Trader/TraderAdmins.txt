@@ -2,6 +2,7 @@
 //														 //
 //      Put the Steam64 IDs for your Admins in here      //
 //      Make a new Line for every ID!					 //
+//		Used only for vehicles							 //
 //														 //
 ///////////////////////////////////////////////////////////
 

@@ -274,5 +274,4 @@
 	Truck_01_WheelDouble
 	
 	
-//<OpenFile> FileName.txt			// Links to another File; Must be right above <FileEnd>!
-<FileEnd>							// This has to be on the End of this File and is very importand!
+<OpenFile> TraderVehicleParts_Boats.txt			// Links to another File;

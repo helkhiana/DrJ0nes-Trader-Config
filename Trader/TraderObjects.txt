@@ -1,75 +1,34 @@
 // ------------------------------------------------------ Trader Markers -------------------------------------------------------
+// You should have one safezone per area only. Preferrably your most central trader.
+// Every trader requires `<TraderMarkerSafezone> 0` for all markers even if they don't have a safezone. Safezone 0 or less will not be created.
+// TraderMarkerPosition coordinates must  match 100% ObjectPosition of the Trader (NPC or static)
+// Use this file to spawn your vendors only. Don't use it to create trader areas. It can be used but it's not a good tool for doing so.
+// Don't use other tools to spawn your vendors as it won't work.
 
 // Green Mountain:
 
+//----------------------------------------------------------- | These are here just for visual delimitation in this file.
+//Consumables Trader
 <TraderMarker> 			0 									// Trader ID
-<TraderMarkerPosition>	3699.27,    402.13,     5967.91 	// Coordinate X, 	Coordinate Y, 	Coordinate Z
-<TraderMarkerSafezone>	80									// Safezone Radius
-
-<TraderMarker> 			1
-<TraderMarkerPosition>	3691.41,    402.074,    5998.47
-<TraderMarkerSafezone>	80
-
-<TraderMarker> 			2
-<TraderMarkerPosition>	3708.71,    403.153,    5974.79
-<TraderMarkerSafezone>	80
-
-<TraderMarker> 			3
-<TraderMarkerPosition>	3707.46,    403.153,    5973.3
-<TraderMarkerSafezone>	80
-
-<TraderMarker> 			4
-<TraderMarkerPosition>	3703.56,	402.345,	6009.53
-<TraderMarkerSafezone>	30
-
-<TraderMarker> 			5
-<TraderMarkerPosition>	3723.84,	402.012,	5990.04
-<TraderMarkerSafezone>	30
-<VehicleSpawn>			3719.71,	402.012,	5994.85		// Vehicle Spawnpoint for Trader; 	Coordinate X, 	Coordinate Y, 	Coordinate Z (optional)
-<VehicleSpawnOri>		-42,		0,			0			// Vehicle Spawnpoint Orientation; 	Yaw, 			Pitch, 			Roll	 	 (optional)
-
-// Kumyrna:
-
-<TraderMarker> 			0
-<TraderMarkerPosition>	8354.06,    293.143,    5995.87
-<TraderMarkerSafezone>	80
-
-<TraderMarker> 			1
-<TraderMarkerPosition>	8357.55,    293.143,    5995.26
-<TraderMarkerSafezone>	80
-
-<TraderMarker> 			2
-<TraderMarkerPosition>	8359.22,    292.034,    5973.69
-<TraderMarkerSafezone>	80
-
-<TraderMarker> 			3
-<TraderMarkerPosition>	8354.61,    292.034,    5967.63
-<TraderMarkerSafezone>	80
-
-<TraderMarker> 			4
-<TraderMarkerPosition>	8370.48,	293.277,	5994.52
-<TraderMarkerSafezone>	30
-
-<TraderMarker> 			5
-<TraderMarkerPosition>	8365.63,	292.012,	5977.71
-<TraderMarkerSafezone>	80
-<VehicleSpawn>			8365.18,	292.017,	5987.68
-<VehicleSpawnOri>		-90,		0,			0
-
-
-// ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
-	
-// Green Mountain:
-
-<Object> 			SurvivorF_Irena						// Classname
-<ObjectPosition>	3699.27,    402.13,     5967.91		// Coordinate X, 	Coordinate Y, 	Coordinate Z
-<ObjectOrientation>	-13.234265, 0,			0			// Yaw, 			Pitch, 			Roll
-//<ObjectAttachment>	NPC_DUMMY						// Add this if you are using an non Character Object for an Trader (like Vending Machines, etc.). It is needed to make the User Action for the Trading Menu work.
-<ObjectAttachment>	BoxCerealCrunchin					// Add an Item to the Traders Inventory;
+<TraderMarkerPosition>	3699.27, 402.13, 5967.91 			// Coordinate X, 	Coordinate Y, 	Coordinate Z
+<TraderMarkerSafezone>	500	
+								// Safezone Radius
+<Object> 			SurvivorF_Irena							// Classname
+<ObjectPosition>		3699.27, 402.13,     5967.91		// Coordinate X, 	Coordinate Y, 	Coordinate Z (Must match TraderMarkerPosition)
+<ObjectOrientation>		-13.234265, 0,			0			// Yaw, 			Pitch, 			Roll
+//<ObjectAttachment>	NPC_DUMMY							// Add this if you are using an non Character Object for an Trader (like Vending Machines, etc.). It is needed to make the User Action for the Trading Menu work.
+<ObjectAttachment>	BoxCerealCrunchin						// Add an Item to the Traders Inventory;
 <ObjectAttachment>	SurgicalGloves_White
 <ObjectAttachment>	Bandana_Polkapattern
 <ObjectAttachment>	MiniDress_PinkChecker
 <ObjectAttachment>	DressShoes_White
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Misc Trader
+<TraderMarker> 			1
+<TraderMarkerPosition>	3691.41,    402.074,    5998.47
+<TraderMarkerSafezone>	0
 
 <Object> 			SurvivorF_Keiko
 <ObjectPosition>	3691.41,    402.074,    5998.47
@@ -81,6 +40,13 @@
 <ObjectAttachment>	Shirt_BlueCheck
 <ObjectAttachment>	CanvasPants_Blue
 <ObjectAttachment>	WorkingBoots_Grey
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Weapon Trader
+<TraderMarker> 			2
+<TraderMarkerPosition>	3708.71,    403.153,    5974.79
+<TraderMarkerSafezone>	0
 
 <Object> 			SurvivorM_Seth
 <ObjectPosition>	3708.71,    403.153,    5974.79
@@ -101,6 +67,14 @@
 <ObjectAttachment>	TTSKOPants
 <ObjectAttachment>	MilitaryBoots_Black
 <ObjectAttachment>	AliceBag_Camo
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Weapon Supplies
+<TraderMarker> 			3
+<TraderMarkerPosition>	3707.46,    403.153,    5973.3
+<TraderMarkerSafezone>	0
+
 
 <Object> 			SurvivorM_Taiki
 <ObjectPosition>	3707.46,    403.153,    5973.3
@@ -113,6 +87,13 @@
 <ObjectAttachment>	BDUPants
 <ObjectAttachment>	TTSKOBoots
 <ObjectAttachment>	AssaultBag_Ttsko
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Clothing Trader
+<TraderMarker> 			4
+<TraderMarkerPosition>	3703.56,	402.345,	6009.53
+<TraderMarkerSafezone>	0
 
 <Object> 			SurvivorF_Frida
 <ObjectPosition>	3703.56,	402.345,	6009.53
@@ -121,6 +102,15 @@
 <ObjectAttachment>	WomanSuit_Black
 <ObjectAttachment>	SlacksPants_Black
 <ObjectAttachment>	DressShoes_Black
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Vehicles Trader
+<TraderMarker> 			5
+<TraderMarkerPosition>	3723.84,	402.012,	5990.04
+<TraderMarkerSafezone>	0
+<VehicleSpawn>			3719.71,	402.012,	5994.85		// Vehicle Spawnpoint for Trader; Use only for vehicle traders
+<VehicleSpawnOri>		-42,		0,			0			// Vehicle Spawnpoint Orientation; Use only for vehicle traders
 
 <Object> 			SurvivorM_Peter
 <ObjectPosition>	3724.33,	402.012,	5989.19
@@ -131,6 +121,157 @@
 <ObjectAttachment>	JumpsuitJacket_Blue
 <ObjectAttachment>	JumpsuitPants_Blue
 <ObjectAttachment>	HikingBootsLow_Blue
+//-----------------------------------------------------------
+
+// Kumyrna:
+
+//-----------------------------------------------------------
+//Consumables Trader
+<TraderMarker> 			0
+<TraderMarkerPosition>	8354.06,    293.143,    5995.87
+<TraderMarkerSafezone>	500
+
+<Object> 			SurvivorM_Niki
+<ObjectPosition>	8354.06,    293.143,    5995.87
+<ObjectOrientation>	-169.334961,0,			0
+<ObjectAttachment>	WaterBottle
+<ObjectAttachment>	SurgicalGloves_Green
+<ObjectAttachment>	MedicalScrubsHat_White
+<ObjectAttachment>	SurgicalMask
+<ObjectAttachment>	MedicalScrubsShirt_White
+<ObjectAttachment>	MedicalScrubsPants_Blue
+<ObjectAttachment>	NBCBootsGray
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Misc Trader
+<TraderMarker> 			1
+<TraderMarkerPosition>	8357.55,    293.143,    5995.26
+<TraderMarkerSafezone>	0
+
+<Object> 			SurvivorF_Maria
+<ObjectPosition>	8357.55,    293.143,    5995.26
+<ObjectOrientation>	-170.312988,0,			0
+<ObjectAttachment>	Screwdriver
+<ObjectAttachment>	Shovel
+<ObjectAttachment>	WorkingGloves_Yellow
+<ObjectAttachment>	ConstructionHelmet_Yellow
+<ObjectAttachment>	Shirt_RedCheck
+<ObjectAttachment>	CanvasPants_Beige
+<ObjectAttachment>	WorkingBoots_Yellow
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Weapon Trader
+<TraderMarker> 			2
+<TraderMarkerPosition>	8359.22,    292.034,    5973.69
+<TraderMarkerSafezone>	0
+
+<Object> 			SurvivorM_Hassan
+<ObjectPosition>	8359.22,    292.034,    5973.69
+<ObjectOrientation>	-89.158005,	0,			0
+<ObjectAttachment>	FirefighterAxe
+<ObjectAttachment>	AKM
+<ObjectAttachment>	AK_WoodHndgrd
+<ObjectAttachment>	AK_FoldingBttstck
+<ObjectAttachment>	KobraOptic
+<ObjectAttachment>	SVD
+<ObjectAttachment>	PSO1Optic
+<ObjectAttachment>	TacticalGoggles
+<ObjectAttachment>	TacticalGloves_Green
+<ObjectAttachment>	GorkaHelmet
+<ObjectAttachment>	BandanaMask_CamoPattern
+<ObjectAttachment>	UKAssVest_Camo
+<ObjectAttachment>	GorkaEJacket_Summer
+<ObjectAttachment>	GorkaPants_Summer
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	AliceBag_Camo
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Weapon Supplies
+<TraderMarker> 			3
+<TraderMarkerPosition>	8354.61,    292.034,    5967.63
+<TraderMarkerSafezone>	0
+
+<Object> 			SurvivorM_Elias
+<ObjectPosition>	8354.61,    292.034,    5967.63
+<ObjectOrientation>	-22.091135,	0,			0
+<ObjectAttachment>	AmmoBox_9x19_25rnd
+<ObjectAttachment>	NailedBaseballBat
+<ObjectAttachment>	MP5K
+<ObjectAttachment>	MP5_RailHndgrd
+<ObjectAttachment>	Universallight
+<ObjectAttachment>	MP5k_StockBttstck
+<ObjectAttachment>	M68Optic
+<ObjectAttachment>	MP5_Compensator
+<ObjectAttachment>	OMNOGloves_Gray
+<ObjectAttachment>	BallisticHelmet_Green
+<ObjectAttachment>	BandanaMask_CamoPattern
+<ObjectAttachment>	HighCapacityVest_Olive
+<ObjectAttachment>	USMCJacket_Woodland
+<ObjectAttachment>	USMCPants_Woodland
+<ObjectAttachment>	TTSKOBoots
+<ObjectAttachment>	MilitaryBoots_Black
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Clothing Trader
+<TraderMarker> 			4
+<TraderMarkerPosition>	8370.48,	293.277,	5994.52
+<TraderMarkerSafezone>	0
+
+<Object> 			SurvivorM_Taiki
+<ObjectPosition>	8370.48,	293.277,	5994.52
+<ObjectOrientation>	-112.26684,	0,			0
+<ObjectAttachment>	AviatorGlasses
+<ObjectAttachment>	ZmijovkaCap_Blue
+<ObjectAttachment>	Hoodie_GraffitiTiles
+<ObjectAttachment>	Jeans_BlueDark
+<ObjectAttachment>	Sneakers_White
+//-----------------------------------------------------------
+
+//-----------------------------------------------------------
+//Vehicles Trader
+<TraderMarker> 			5
+<TraderMarkerPosition>	8365.63,	292.012,	5977.71
+<TraderMarkerSafezone>	0
+<VehicleSpawn>			8365.18,	292.017,	5987.68
+<VehicleSpawnOri>		-90,		0,			0
+
+<Object> 			SurvivorM_Jose
+<ObjectPosition>	8365.63,	292.012,	5977.71
+<ObjectOrientation>	-22.091135,	0,			0
+<ObjectAttachment>	LugWrench
+<ObjectAttachment>	WorkingGloves_Black
+<ObjectAttachment>	ReflexVest
+<ObjectAttachment>	JumpsuitJacket_Blue
+<ObjectAttachment>	JumpsuitPants_Blue
+<ObjectAttachment>	HikingBootsLow_Blue
+//-----------------------------------------------------------
+
+//Svetlojarsk
+//-----------------------------------------------------------
+//Boats Trader
+<TraderMarker> 			6
+<TraderMarkerPosition>	14234.98,	3.36,		13076.81
+<TraderMarkerSafezone>	0
+<VehicleSpawn>			14239.80,	0.5,	13084.94
+<VehicleSpawnOri>		20,		0,			0
+
+<Object> 			SurvivorM_Jose
+<ObjectPosition>	14234.98,	3.36,		13076.81
+<ObjectOrientation>	127.58,	0,			0
+<ObjectAttachment>	WorkingGloves_Black
+<ObjectAttachment>	JumpsuitJacket_Blue
+<ObjectAttachment>	JumpsuitPants_Blue
+<ObjectAttachment>	HikingBootsLow_Blue
+//-----------------------------------------------------------
+
+
+// ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
+	
+// Green Mountain:
 
 <Object>			Land_FuelStation_Build
 <ObjectPosition>	3693.1,		403.612,	5998.32
@@ -202,86 +343,6 @@
 
 // Kumyrna:
 
-<Object> 			SurvivorM_Niki
-<ObjectPosition>	8354.06,    293.143,    5995.87
-<ObjectOrientation>	-169.334961,0,			0
-<ObjectAttachment>	WaterBottle
-<ObjectAttachment>	SurgicalGloves_Green
-<ObjectAttachment>	MedicalScrubsHat_White
-<ObjectAttachment>	SurgicalMask
-<ObjectAttachment>	MedicalScrubsShirt_White
-<ObjectAttachment>	MedicalScrubsPants_Blue
-<ObjectAttachment>	NBCBootsGray
-
-<Object> 			SurvivorF_Maria
-<ObjectPosition>	8357.55,    293.143,    5995.26
-<ObjectOrientation>	-170.312988,0,			0
-<ObjectAttachment>	Screwdriver
-<ObjectAttachment>	Shovel
-<ObjectAttachment>	WorkingGloves_Yellow
-<ObjectAttachment>	ConstructionHelmet_Yellow
-<ObjectAttachment>	Shirt_RedCheck
-<ObjectAttachment>	CanvasPants_Beige
-<ObjectAttachment>	WorkingBoots_Yellow
-
-<Object> 			SurvivorM_Hassan
-<ObjectPosition>	8359.22,    292.034,    5973.69
-<ObjectOrientation>	-89.158005,	0,			0
-<ObjectAttachment>	FirefighterAxe
-<ObjectAttachment>	AKM
-<ObjectAttachment>	AK_WoodHndgrd
-<ObjectAttachment>	AK_FoldingBttstck
-<ObjectAttachment>	KobraOptic
-<ObjectAttachment>	SVD
-<ObjectAttachment>	PSO1Optic
-<ObjectAttachment>	TacticalGoggles
-<ObjectAttachment>	TacticalGloves_Green
-<ObjectAttachment>	GorkaHelmet
-<ObjectAttachment>	BandanaMask_CamoPattern
-<ObjectAttachment>	UKAssVest_Camo
-<ObjectAttachment>	GorkaEJacket_Summer
-<ObjectAttachment>	GorkaPants_Summer
-<ObjectAttachment>	MilitaryBoots_Black
-<ObjectAttachment>	AliceBag_Camo
-
-<Object> 			SurvivorM_Elias
-<ObjectPosition>	8354.61,    292.034,    5967.63
-<ObjectOrientation>	-22.091135,	0,			0
-<ObjectAttachment>	AmmoBox_9x19_25rnd
-<ObjectAttachment>	NailedBaseballBat
-<ObjectAttachment>	MP5K
-<ObjectAttachment>	MP5_RailHndgrd
-<ObjectAttachment>	Universallight
-<ObjectAttachment>	MP5k_StockBttstck
-<ObjectAttachment>	M68Optic
-<ObjectAttachment>	MP5_Compensator
-<ObjectAttachment>	OMNOGloves_Gray
-<ObjectAttachment>	BallisticHelmet_Green
-<ObjectAttachment>	BandanaMask_CamoPattern
-<ObjectAttachment>	HighCapacityVest_Olive
-<ObjectAttachment>	USMCJacket_Woodland
-<ObjectAttachment>	USMCPants_Woodland
-<ObjectAttachment>	TTSKOBoots
-<ObjectAttachment>	MilitaryBoots_Black
-
-<Object> 			SurvivorM_Taiki
-<ObjectPosition>	8370.48,	293.277,	5994.52
-<ObjectOrientation>	-112.26684,	0,			0
-<ObjectAttachment>	AviatorGlasses
-<ObjectAttachment>	ZmijovkaCap_Blue
-<ObjectAttachment>	Hoodie_GraffitiTiles
-<ObjectAttachment>	Jeans_BlueDark
-<ObjectAttachment>	Sneakers_White
-
-<Object> 			SurvivorM_Jose
-<ObjectPosition>	8365.63,	292.012,	5977.71
-<ObjectOrientation>	-22.091135,	0,			0
-<ObjectAttachment>	LugWrench
-<ObjectAttachment>	WorkingGloves_Black
-<ObjectAttachment>	ReflexVest
-<ObjectAttachment>	JumpsuitJacket_Blue
-<ObjectAttachment>	JumpsuitPants_Blue
-<ObjectAttachment>	HikingBootsLow_Blue
  
 <Object>			Land_Mil_Tent_Big2_2
 <ObjectPosition>	8356.92,	294.012,	5971.17
@@ -439,6 +500,47 @@
 <ObjectPosition>	8353.61,	292.006,	5982.2
 <ObjectOrientation>	0,			0,			0
 
+
+// Svetlojarsk Boat Trader
+<Object>			StaticObj_Misc_FishingGear1
+<ObjectPosition>	14231.20,	3.33,	13078.59
+<ObjectOrientation>	0,			0,			0
+
+<Object>			Land_Mil_GuardShed
+<ObjectPosition>	14234.59,	3.68,	13077.00
+<ObjectOrientation>	-54.05,			0,			0
+
+<Object>			Land_Pier_Wooden3_Ladder
+<ObjectPosition>	14253.00,	-0.48,	13098.59
+<ObjectOrientation>	33.11,			0,			0
+
+<Object>			StaticObj_Pier_Wooden3_16m
+<ObjectPosition>	14244.299805,	-0.507007,	13085.299805
+<ObjectOrientation>	32.86,			0,			0
+
+<Object>			StaticObj_Pier_Wooden3_Barrels
+<ObjectPosition>	14243.000000, -0.530502, 13091.000000
+<ObjectOrientation>	-145.614487,			0,			0
+
+<Object>			StaticObj_Pier_Wooden3_Platform
+<ObjectPosition>	14248.700195, -0.497097, 13095.799805
+<ObjectOrientation>	34.00,			0,			0
+
+<Object>			StaticObj_Pier_Wooden3_Barrels
+<ObjectPosition>	14240.599609, 0.962143, 13079.500000
+<ObjectOrientation>	32.611538,			0,			0
+
+<Object>			Land_Pier_Wooden3_Ladder
+<ObjectPosition>	14249.599609, -0.462139, 13100.700195
+<ObjectOrientation>	34.072517,			0,			0
+
+<Object>			StaticObj_Misc_FishingGear2
+<ObjectPosition>	14247.700195, 1.949460, 13094.299805
+<ObjectOrientation>	0,			0,			0
+
+<Object>			Land_Boat_Small9
+<ObjectPosition>	14248.900391, 0.190705, 13073.299805
+<ObjectOrientation>	-56.597233,			0,			0
 
 //<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
 <FileEnd>												// This has to be on the End of this File and is very importand!

@@ -1,0 +1,22 @@
+
+//Marker 6
+<Trader> Boats Trader
+	<Category> Boats
+		Boat_01_Black,				VNK,		14000,	8000	// Trader mod doesn't support keys for boats.
+		Boat_01_Blue,				VNK,		14000,	8000
+		Boat_01_Camo,				VNK,		14000,	8000
+		Boat_01_Orange,				VNK,		14000,	8000
+	
+	<Category> Vehicle Parts
+		HeadlightH7_Box,					*,		30,		15
+		SparkPlug,							*,		60,		40
+		GlowPlug,							*,		60,		40
+		EngineOil,							*,		70,		40
+		CarBattery,							*,		100,	50
+		TruckBattery,						*,		180,	100
+		CarRadiator,						*,		200,	100
+		TireRepairKit,						*,		220,	100
+		
+		
+//<OpenFile> FileName.txt								// Links to another File;
+<FileEnd>												// This has to be on the End of the last File and is very important!
