@@ -64,6 +64,7 @@
 		Lunchmeat,				*,		4,		2
 		CatFoodCan,				*,		4,		2
 		Pajka,					*,		4,		2
+		CrabCan,				*,		4,		2
 		SpaghettiCan,			*,		5,		2
 		BakedBeansCan,			*,		5,		2
 		PorkCan,				*,		5,		2
@@ -88,6 +89,7 @@
 		Sardines,				S,		7,		4
 		Carp,					S,		10,		5
 		Mackerel,				S,		10,		5
+		RedCaviar,				S,		5,		3	
 		
 	<Category> Animal Parts
 		Bone,					*,		2,		1
@@ -104,7 +106,8 @@
 		SodaCan_Fronta, 		*,		2, 		1
 		WaterBottle,			*,		5,		2
 		Canteen,				*,		8,		4
-		Vodka,					*,		12,		8
+		GlassBottle,			*,		5,		2
+		FilteringBottle,		*,		35,		15
 		
 	<Category> Medical Supplies
 		//Rag,					1,		1,		-1
@@ -131,6 +134,7 @@
 		Epinephrine,			*,		20,		10
 		Morphine,				*,		25,		15
 		AntiChemInjector,		*,		35, 	20
+		ChelatingTablets,		*,		800,	50
 		
 	<Category> Money Exchange
 		MoneyRuble1,			1,		1,		-1
@@ -174,6 +178,7 @@
 		FishingRod,				*,		60,		25
 		GPSReceiver,			*,		200,	100
 		PunchedCard,			*,		900,	-1
+		Jig,					*,		30,		10
 		
 	<Category> Tools (big)
 		LugWrench,				*,		4,		1
@@ -189,6 +194,7 @@
 		PipeWrench,				W,		15,		7
 		WoodAxe,				*,		20,		8
 		FirefighterAxe,			*,		30,		12
+		Iceaxe,					*,		10,		4
 		
 	<Category> Electronics
 		Battery9V,				*,		8,		3
@@ -280,6 +286,8 @@
 		PartyTent_Blue,			*,		3000,	500
 		PartyTent_Brown,		*,		3000,	500
 		PartyTent_Lunapark,		*,		3000,	500
+		ScientificBriefcase,	*,		2000,	100
+		ScientificBriefcaseKeys,*,		2000,	100
 	
 	<Category> Flags
 		Flag_APA,				*,		300,	120
@@ -620,6 +628,9 @@
 		AviatorGlasses,			*,		40,		20
 		TacticalGoggles,		*,		60,		30
 		NVGHeadstrap,			*,		200,	120
+		SkiGoggles_BlackYellow,		*,		60,		30
+		SkiGoggles_WhiteClear,		*,		60,		30
+		SkiGoggles_WhiteDark,		*,		60,		30
 		
 	<Category> Armbands
 		Armband_Pink,			*,		15,		5
@@ -663,6 +674,9 @@
 		PaddedGloves_Beige,		*,		25,		6
 		PaddedGloves_Brown,		*,		25,		6
 		PaddedGloves_Threat,		*,		25,		6
+		SkiGloves_90s,			*,		25,		6
+		SkiGloves_Blue,			*,		25,		6
+		SkiGloves_Red,			*,		25,		6
 		
 	<Category> Hats & Caps
 		MedicalScrubsHat_Blue,	*,		2,		1
@@ -693,6 +707,7 @@
 		BoonieHat_DPM,			*,		20,		7
 		BoonieHat_Dubok,		*,		20,		7
 		BoonieHat_Flecktran,	*,		20,		7
+		BoonieHat_Winter,		*,		20,		7
 		CowboyHat_Brown,		*,		20,		7
 		CowboyHat_darkBrown,	*,		20,		7
 		CowboyHat_black,		*,		20,		7
@@ -745,6 +760,19 @@
 		WinterCoif_Skull,			*,		55,		18
 		NBCHoodGray,			*,		100,	30		
 		NBCHoodYellow,			*,		100,	30
+		NBCHoodWhite,			*,		100,	30
+		Shemag_Brown,			*,		55,		18
+		Shemag_Green,			*,		55,		18
+		Shemag_Red,			*,		55,		18
+		Shemag_White,			*,		55,		18
+		SnowstormUshanka_Brown,			*,		55,		18
+		SnowstormUshanka_Navy,			*,		55,		18
+		SnowstormUshanka_Olive,			*,		55,		18
+		SnowstormUshanka_White,			*,		55,		18
+		SherpaHat_Black,			*,		55,		18
+		SherpaHat_Blue,			*,		55,		18
+		SherpaHat_Red,			*,		55,		18
+		BudenovkaHat_Gray,			*,		55,		18
 
 	<Category> Helmets
 		ConstructionHelmet_Yellow,*,	30,		7
@@ -802,6 +830,8 @@
 		BallisticHelmet_BDU,	*,		300,	100
 		BallisticHelmet_Desert,	*,		300,	100
 		BallisticHelmet_Woodland,	*,		300,	100
+		BallisticHelmet_Navy,	*,		300,	100
+		BallisticHelmet_Winter,	*,		300,	100
 			
 		<Category> Knights Clothing
 		Chainmail,				*,		250,	80
@@ -811,9 +841,9 @@
 		GreatHelm,				*,		120,	30
 		NorseHelm,				*,		120,	30
 		MedievalBoots,			*,		25,		6
-		WitchHood_Chainmail_Black,			*,		250,	80
-		WitchHood_Chainmail_Brown,			*,		250,	80
-		WitchHood_Chainmail_Red,			*,		250,	80
+		WitchHoodCoif_Black,	*,		250,	80
+		WitchHoodCoif_Brown,	*,		250,	80
+		WitchHoodCoif_Red,		*,		250,	80
 		
 
 	<Category> Masks
@@ -842,10 +872,19 @@
 		Balaclava3Holes_Beige,	*,		50,		12
 		Balaclava3Holes_Black,	*,		55,		13
 		Balaclava3Holes_Green,	*,		60,		15
+		Balaclava3Holes_White,	*,		60,		15
+		BalaclavaMask_BDU,		*,		60,		15
+		BalaclavaMask_Chain,	*,		60,		15
+		BalaclavaMask_Pig,		*,		60,		15
 		WeldingMask,			*,		70,		20
 		GP5GasMask,				*,		120,	40
 		AirborneMask,			*,		120,	40
 		GasMask_Filter,			*,		40,		10
+		PaydayMask_Chains,		*,		40,		10
+		PaydayMask_Dallas,		*,		40,		10
+		PaydayMask_Hoxton,		*,		40,		10
+		PaydayMask_Wolf,		*,		40,		10
+		Headdress_Wolf,			*,		200,	20
 
 	<Category> Shirts
 		TShirt_OrangeWhiteStripes,*,	8,		2
@@ -893,22 +932,25 @@
 		Hoodie_Green,			*,		35,		7
 		
 	<Category> Vests
-		ReflexVest,				*,		5,		1
-		PoliceVest,				*,		35,		10
-		HuntingVest,			*,		55,		18
-		PressVest_LightBlue,	*,		85,		28
-		PressVest_Blue,			*,		90,		30
-		UKAssVest_Black,		*,		90,		30
-		UKAssVest_Khaki,		*,		90,		30
-		UKAssVest_Olive,		*,		90,		30
-		UKAssVest_Camo,			*,		100,	35
-		SmershVest,				*,		150,	50
-		HighCapacityVest_Black,	*,		200,	60
-		HighCapacityVest_Olive,	*,		230,	75
-		PlateCarrierVest,		*,		250,	80
+		ReflexVest,					*,		5,		1
+		PoliceVest,					*,		35,		10
+		HuntingVest,				*,		55,		18
+		HuntingVest_Winter,			*,		55,		18
+		PressVest_LightBlue,		*,		85,		28
+		PressVest_Blue,				*,		90,		30
+		UKAssVest_Black,			*,		90,		30
+		UKAssVest_Khaki,			*,		90,		30
+		UKAssVest_Olive,			*,		90,		30
+		UKAssVest_Camo,				*,		100,	35
+		UKAssVest_Winter,			*,		100,	35
+		SmershVest,					*,		150,	50
+		HighCapacityVest_Black,		*,		200,	60
+		HighCapacityVest_Olive,		*,		230,	75
+		PlateCarrierVest,			*,		250,	80
 		PlateCarrierVest_Black,		*,		250,	80
 		PlateCarrierVest_Camo,		*,		250,	80
 		PlateCarrierVest_Green,		*,		250,	80
+		PlateCarrierVest_Winter,	*,		250,	80
 
 	<Category> Jackets & Coats
 		LabCoat,				*,		10,		2
@@ -969,6 +1011,7 @@
 		PrisonUniformJacket,	*,		28,		7
 		PoliceJacketOrel,		*,		32,		8
 		PoliceJacket,			*,		34,		8
+		BushlatPoliceJacket_Blue,	*,		34,		8
 		ParamedicJacket_Crimson,*,		36,		9
 		ParamedicJacket_Blue,	*,		36,		9
 		ParamedicJacket_Green,	*,		36,		9
@@ -998,10 +1041,18 @@
 		GorkaEJacket_Flat,		*,		140,	45
 		GorkaEJacket_PautRev,	*,		140,	45
 		GorkaEJacket_Summer,	*,		140,	45
+		GorkaEJacket_Winter,	*,		140,	45
 		USMCJacket_Desert,		*,		140,	45
 		USMCJacket_Woodland,	*,		155,	55
 		NBCJacketGray,			*,		250,	80
 		NBCJacketYellow,		*,		250,	80
+		NBCJacketWhite,			*,		250,	80
+		DownJacket_Blue,		*,		30,		7
+		DownJacket_Green,		*,		30,		7
+		DownJacket_Orange,		*,		30,		7
+		DownJacket_Red	,		*,		30,		7
+		NavyUniformJacket,		*,		120,	35
+		OMKJacket_Navy,			*,		120,	35
 
 	<Category> Skirts & Dresses
 		Skirt_Yellow,			*,		30,		10
@@ -1098,8 +1149,12 @@
 		GorkaPants_PautRev,		*,		130,	40
 		GorkaPants_Autumn,		*,		130,	40
 		GorkaPants_Summer,		*,		130,	40
+		GorkaPants_Winter,		*,		130,	40
 		NBCPantsGray,			*,		200,	65
 		NBCPantsYellow,			*,		200,	65
+		NBCPantsWhite,			*,		200,	65
+		NavyUniformPants,		*,		100,	30
+		OMKPants_Navy,			*,		100,	30
 	
 	<Category> Shoes & Boots
 		AthleticShoes_Blue,		*,		17,		4
@@ -1155,6 +1210,7 @@
 		MilitaryBoots_Black,	*,		110,	35
 		NBCBootsGray,			*,		150,	50
 		NBCBootsYellow,			*,		150,	50
+		NBCBootsWhite,			*,		150,	50
 
 	<Category> Ghillie
 		// Keep in Mind that Players can also 
@@ -1165,15 +1221,19 @@
 		GhillieHood_Mossy,		*,		220,	70
 		GhillieHood_Tan,		*,		220,	70
 		GhillieHood_Woodland,	*,		220,	70
+		GhillieHood_Winter,		*,		220,	70
 		GhillieBushrag_Mossy,	*,		400,	130
 		GhillieBushrag_Tan,		*,		400,	130
 		GhillieBushrag_Woodland,*,		400,	130
+		GhillieBushrag_Winter,	*,		400,	130
 		GhillieTop_Mossy,		*,		600,	200
 		GhillieTop_Tan,			*,		600,	200
 		GhillieTop_Woodland,	*,		600,	200
+		GhillieTop_Winter,		*,		600,	200
 		GhillieSuit_Mossy,		*,		1000,	300
 		GhillieSuit_Tan,		*,		1000,	300
 		GhillieSuit_Woodland,	*,		1000,	300
+		GhillieSuit_Winter,		*,		1000,	300
 		
 	<Category> Fancy Dress
 		CrookedNose,			*,		15,		0
@@ -1196,10 +1256,12 @@
 		PlateCarrierHolster_Black,	*,		60,		20
 		PlateCarrierHolster_Camo,	*,		60,		20
 		PlateCarrierHolster_Green,	*,		60,		20
+		PlateCarrierHolster_Winter,	*,		60,		20
 		PlateCarrierPouches,	*,		100,		20
 		PlateCarrierPouches_Black,	*,		100,		20
 		PlateCarrierPouches_Camo,	*,		100,		20
 		PlateCarrierPouches_Green,	*,		100,		20
+		PlateCarrierPouches_Winter,	*,		100,		20
 		
 		
 	<Category> Belt
@@ -1246,8 +1308,11 @@
 		AssaultBag_Black,		*,		110,	30
 		AssaultBag_Green,		*,		110,	30
 		AssaultBag_Ttsko,		*,		130,	30
+		AssaultBag_Winter,		*,		130,	30
 		HuntingBag,				*,		130,	30
 		TortillaBag,			*,		180,	60
+		TortillaBag_Winter,		*,		180,	60
+		CoyoteBag_Winter,		*,		180,	60
 		CoyoteBag_Brown,		*,		180,	60
 		CoyoteBag_Green,		*,		180,	60
 		MountainBag_Orange,		*,		300,	80
